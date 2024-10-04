@@ -6,6 +6,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"James-Yu.latex-workshop",
 				"mhutchie.git-graph"
 			]
 		}
