@@ -11,6 +11,9 @@ name: Lint Code Base
 # https://help.github.com/en/articles/workflow-syntax-for-github-actions
 #
 
+# Prevent writing with GH Actions token
+permissions: read-all
+
 #############################
 # Start the job on all push #
 #############################
