@@ -59,5 +59,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Do not lint downloaded code - see https://github.com/super-linter/super-linter
           FILTER_REGEX_EXCLUDE: .*/download/.*|layout.html
-
 # EOF
