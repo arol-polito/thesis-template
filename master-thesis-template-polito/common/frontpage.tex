@@ -23,32 +23,32 @@
 \vspace{\stretch{10}}
 %
 \makebox[\textwidth]{\null\hfill\def\arraystretch{2}% % to change the spacing change this number
-\begin{minipage}[t]{.375\textwidth}\raggedright
+\begin{minipage}[t]{.375\textwidth}\raggedright{}
     \begin{adjustbox}{width={\textwidth},totalheight={\textheight},keepaspectratio} % with adjustbox it adapts to the lengths of the names, remove it if you want the same font dimension
     \begin{tabular}[t]{@{}l@{}}
-        \fixednamesfont \textbf{\thesissupervisortext} \\
-        \namesfont \xmakefirstuc{\thesissupervisoronetitle}~\thesissupervisoronename~\MakeUppercase{\thesissupervisoronesurname}\\
-        \namesfont \xmakefirstuc{\thesissupervisortwotitle}~\thesissupervisortwoname~\MakeUppercase{\thesissupervisortwosurname}\\
-        \namesfont \xmakefirstuc{\thesissupervisorthreetitle}~\thesissupervisorthreename~\MakeUppercase{\thesissupervisorthreesurname}
+        \fixednamesfont{} \textbf{\thesissupervisortext} \\
+        \namesfont{} \xmakefirstuc{\thesissupervisoronetitle}~\thesissupervisoronename~\MakeUppercase{\thesissupervisoronesurname}\\
+        \namesfont{} \xmakefirstuc{\thesissupervisortwotitle}~\thesissupervisortwoname~\MakeUppercase{\thesissupervisortwosurname}\\
+        \namesfont{} \xmakefirstuc{\thesissupervisorthreetitle}~\thesissupervisorthreename~\MakeUppercase{\thesissupervisorthreesurname}
     \end{tabular}
     \end{adjustbox}
 \end{minipage}
 %
 \hfill
 %
-\begin{minipage}[t]{.375\textwidth}\raggedleft
+\begin{minipage}[t]{.375\textwidth}\raggedleft{}
 \begin{adjustbox}{width={\textwidth},totalheight={\textheight},keepaspectratio} % with adjustbox it adapts to the lengths of the names, remove it if you want the same font dimension
 \begin{tabular}[t]{@{}l@{}}
-    \fixednamesfont \textbf{\thesiscandidatetext} \\
-    \namesfont \thesiscandidatename~\MakeUppercase{\thesiscandidatesurname}
+    \fixednamesfont{} \textbf{\thesiscandidatetext} \\
+    \namesfont{} \thesiscandidatename~\MakeUppercase{\thesiscandidatesurname}
 \end{tabular}
 \end{adjustbox}
 \end{minipage}\hfill\null}\\
 %
 \vspace{\stretch{5}}
 %
-{\footfont \textbf{\thesisdate} \par}
+{\footfont{} \textbf{\thesisdate} \par}
 %
 \end{titlepage}
 
-\restoregeometry
+\restoregeometry{}
