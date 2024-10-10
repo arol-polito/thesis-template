@@ -10,7 +10,7 @@
 % \renewcommand{\abbreviationsname}{Acronyms}
 
 % to allow line comments in algorithms
-\algnewcommand{\LineComment}[1]{\State \(\triangleright\) #1}
+\algnewcommand{\LineComment}[1]{\State{} \(\triangleright\) #1}
 
 % to declare abs and norm
 \DeclarePairedDelimiter\abs{\lvert}{\rvert}%
@@ -20,9 +20,9 @@
 % and \norm resizes the size of the brackets, and the 
 % starred version does not.
 \makeatletter
-\let\oldabs\abs
+\let\oldabs\abs{}
 \def\abs{\@ifstar{\oldabs}{\oldabs*}}
 %
-\let\oldnorm\norm
+\let\oldnorm\norm{}
 \def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
 \makeatother
