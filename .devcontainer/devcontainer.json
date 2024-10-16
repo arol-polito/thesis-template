@@ -1,0 +1,16 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/prulloac/devcontainer-features/latex:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.vscode-github-actions",
+        "James-Yu.latex-workshop",
+        "mhutchie.git-graph",
+        "slevesque.vscode-zipexplorer"
+      ]
+    }
+  }
+}
